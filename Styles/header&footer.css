@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "sendinblue";
+    src: url(../files/Nicholas\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "footer";
+    src: url(../files/Poppins-Light.ttf);
+}
+
+body {
+    font-family: "sendinblue", sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 15%;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar>img {
+    width: 17%;
+}
+
+#navbar>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar>div:first-of-type {
+    width: 30%;
+    font-size: 20px;
+    color: grey;
+}
+
+#navbar>div:nth-of-type(2) {
+    font-size: 20px;
+    width: 15%;
+}
+
+#navbar button {
+    font-size: 22px;
+    color: white;
+    background-color: #0092FF;
+    border: 0;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+#footer {
+    padding: 1% 20%;
+    font-family: "footer", sans-serif;
+    position: sticky;
+    bottom: 0px;
+}
+
+#one {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logof {
+    width: 17%;
+    display: block;
+}
+
+#socials {
+    display: flex;
+    width: 30%;
+
+}
+
+#socials>img {
+    width: 12%;
+    margin: 2px 5px;
+}
+
+#two {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+#two>div:nth-of-type(1) {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+#person {
+    width: 60%;
+    margin: 10px;
+}
+
+#two>div:nth-of-type(2) {
+    display: flex;
+    width: 40%;
+}
+
+#text {
+    width: 70%;
+    font-size: 18px;
+}
+
+.head {
+    color: #091E3F;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#two>div:nth-of-type(2) {
+    justify-content: space-around;
+    width: 55%;
+}
+
+#three {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
