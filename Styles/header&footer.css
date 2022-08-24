@@ -17,6 +17,8 @@ body {
 }
 #navbar {
     display: flex;
+    z-index: 100;
+    background-color: white;
     justify-content: space-around;
     align-items: center;
     padding: 1% 10%;
@@ -58,8 +60,9 @@ body {
 #footer {
     padding: 1% 17%;
     font-family: "footer", sans-serif;
-    /* position: sticky; */
+    position: relative;
     bottom: 0px;
+    background-color: white;
 }
 
 #one {
