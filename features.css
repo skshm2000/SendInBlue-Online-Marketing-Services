@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "sendinblue";
+    src: url(../files/Nicholas\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "footer";
+    src: url(../files/Poppins-Light.ttf);
+}
+
 #top-section {
     margin: auto;
     height: 100vh;
@@ -47,24 +57,26 @@ button:hover{
     cursor: pointer;
 }
 
-.features-section { 
-    height: auto;  
-    display: grid;
-    grid-template-rows: 30% 60%;
-    gap: 7%;
+.features-section {  
     background: linear-gradient(180deg, #EEECEB 0%, #fff 100%);
-    padding-bottom: 50px;
+}
+
+
+#features-child {
+    padding-top: 100px;
+}
+#features-child:nth-child(2) {
+    padding-bottom: 100px;
+    padding-top: 60px;
 }
 
 
 #features-heading {
     margin: auto;
     text-align: center;
-    padding-top: 110px;
 }
 #features-child:nth-child(2) {
-    width: 70%;
-    height: auto;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: 32% 58%;
@@ -73,9 +85,6 @@ button:hover{
 
 #features-info >img {
     width: 100%;
-}
-#features-info {
-    height: auto;
 }
 
 #features-info:nth-child(2) {
@@ -88,6 +97,7 @@ button:hover{
     display: grid;
     grid-template-columns: 16% 85%;
     gap: 4%;
+    font-family: footer;
     justify-content: space-between;
 }
 
@@ -98,13 +108,7 @@ button:hover{
 #card-info {
     width: 95%;
     display: grid;
-    grid-template-rows: 10% 50% 10%;
-    box-sizing: border-box;
-    gap: 10%;
-}
-
-#card-info button {
-    box-sizing: border-box;
+    grid-template-rows: 50px fit-content 50px;
 }
 
 #card-info h3:first-child {
@@ -112,10 +116,14 @@ button:hover{
 }
 
 #card-info p {
-    font-family: sans-serif;
+    font-family: footer;
     color: #606469;
     font-size: 16px;
     line-height: 26px
+}
+
+#card-info h3 {
+    width: 100%;
 }
 
 #read-more {
@@ -123,9 +131,9 @@ button:hover{
 }
 
 hr {
-    margin-top: 200px;
+    margin: auto;
     width: 60%;
-    margin-bottom: 100px;
+    
 }
 
 #card-info>div:nth-child(3)>h3{
@@ -141,6 +149,7 @@ hr {
     text-align: left;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     gap: 5%;
     box-sizing: border-box;
     justify-content: left;
@@ -162,7 +171,6 @@ hr {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: -100px;
         
     }
     #features-info-card {
@@ -193,13 +201,4 @@ hr {
     iframe {
         height: 500px;
     }
-    hr {
-        margin-top: 200px;
-        width: 0;
-    }
-
-    #card-info>div:nth-child(3)>h3{
-        margin-top: -15px;
-    }
-
 }
