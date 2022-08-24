@@ -12,17 +12,23 @@ body {
     font-family: "sendinblue", sans-serif;
 }
 
+* {
+    margin: 0 0 0 0;
+}
 #navbar {
     display: flex;
+    z-index: 100;
+    background-color: white;
     justify-content: space-around;
     align-items: center;
-    padding: 1% 15%;
+    padding: 1% 10%;
     position: sticky;
-    top: 0px;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #navbar>img {
-    width: 17%;
+    width: 15%;
 }
 
 #navbar>div {
@@ -33,17 +39,17 @@ body {
 
 #navbar>div:first-of-type {
     width: 30%;
-    font-size: 20px;
+    font-size: 18px;
     color: grey;
 }
 
 #navbar>div:nth-of-type(2) {
-    font-size: 20px;
+    font-size: 17px;
     width: 15%;
 }
 
 #navbar button {
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     background-color: #0092FF;
     border: 0;
@@ -52,10 +58,11 @@ body {
 }
 
 #footer {
-    padding: 1% 20%;
+    padding: 1% 17%;
     font-family: "footer", sans-serif;
-    position: sticky;
+    position: relative;
     bottom: 0px;
+    background-color: white;
 }
 
 #one {
@@ -104,12 +111,12 @@ body {
 
 #text {
     width: 70%;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .head {
     color: #091E3F;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: bold;
 
 }
