@@ -121,10 +121,12 @@ body {
 #two>div:nth-of-type(2) {
     justify-content: space-around;
     width: 55%;
+    padding-bottom: 6%;
 }
 
 #three {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
+    padding-top: 2%;
 }
