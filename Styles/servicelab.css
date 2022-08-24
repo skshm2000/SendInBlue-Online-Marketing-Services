@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+.one{
+    background-color: rgb(23, 85, 143);
+    text-align: center;
+    color:white;
+    margin-top: -60px;
+}
+#top>h1{
+    font-size: 78px;
+    padding-top: 100px;
+}
+#top>p{
+    font-size: 22px;
+    width:60%;
+    margin: auto;
+    margin-top:-48px;
+}
+.one>div>img{
+    margin-top: 20px;
+}
+.two{
+    color:white;
+    background-color: rgb(23, 85, 143);
+    width:88%;
+    margin: auto;
+    margin-top: 100px;
+    display:flex;
+    height:140px;
+}
+.two>div{
+    display:flex;
+    margin: auto;
+}
+.two>div>div>img{
+    width:20px;
+    margin-top: 20px;
+    
+}
