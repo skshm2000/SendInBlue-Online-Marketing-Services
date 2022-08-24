@@ -58,7 +58,7 @@ body {
 #footer {
     padding: 1% 17%;
     font-family: "footer", sans-serif;
-    position: sticky;
+    /* position: sticky; */
     bottom: 0px;
 }
 
