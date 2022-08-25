@@ -203,3 +203,45 @@
     line-height: 50px;
     color: #091e3f
 }
+.accordion {
+    /* background-color: #eee; */
+    background-color:#eeeceb;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+    margin: 10px 10px 0px 10px;
+}
+.active, .accordion:hover {
+    background-color: #ccc; 
+
+}
+.heading {
+    font-size: 45px; 
+    background-color: white; 
+    text-align: center;
+    padding-bottom:80px; 
+    padding-top: 80px;
+    color: #091e3f;
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #ccc; 
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 22px;
+    margin: 0px -10px 0px 10px;
+}
+#shanu, #shanu button{
+    text-align: left;
+}
+#shanu button {
+    font-size: 20px;
+}
