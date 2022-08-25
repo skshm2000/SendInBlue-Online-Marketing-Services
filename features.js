@@ -1,6 +1,8 @@
 import navbar from "./Components/exNavbar.js"
+import footer from "./Components/exFooter.js"
 
-document.querySelector('#navbar').innerHTML =navbar()
+document.querySelector('#navbar').innerHTML = navbar()
+document.querySelector('#footer').innerHTML = footer();
 
 function widht(){
     if(screen.availWidth>=500 && screen.availWidth<=1200) {
