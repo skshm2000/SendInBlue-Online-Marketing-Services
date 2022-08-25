@@ -4,30 +4,38 @@ import footer from "../Components/exFooter.js"
 document.getElementById("navbar").innerHTML = navbar()
 document.getElementById("footer").innerHTML = footer()
 
-let changer = document.getElementById("container5")
+document.getElementById("solutions").addEventListener("click", ()=>{
+    window.location.href = "../why-sendinblue.html"
+})
 
-// let data = [
-//     {
-//         image: "https://www.sendinblue.com/wp-content/uploads/2020/03/Edwin_Aplha_Full_Res_B-@1x.png",
-//         company: ,
-//         signature: ,
-//         prof: ,
-//         message: "As a small team, simplifying our workflow is a top priority, so having our contacts, SMS, and email in one place helps us a ton!"
-//     },
+document.getElementById("pricing").addEventListener("click", ()=>{
+    window.location.href = "../pricing.html"
+})
 
-//     {
-//         image: "https://www.sendinblue.com/wp-content/uploads/2020/03/Benjamin_Latour_Full_Res_B-@1x.png",
-//         company: ,
-//         signature: ,
-//         prof: ,
-//         message: "We recommend Sendinblue to all the startups we advise. It adapts perfectly to their needs, even at rapid growth!"
-//     },
+document.getElementById("features").addEventListener("click", ()=>{
+    window.location.href = "../features.html"
+})
 
-//     {
-//         image: "https://www.sendinblue.com/wp-content/uploads/2020/03/Edwin_Aplha_Full_Res_B-@1x.png",
-//         company: ,
-//         signature: ,
-//         prof: ,
-//         message: ""
-//     }
-// ]
+document.getElementById("resources").addEventListener("click", ()=>{
+    window.location.href = "../servicelab.html"
+})
+
+document.getElementById("login").addEventListener("click", ()=>{
+    window.location.href = "../login.html"
+})
+
+document.getElementById("signup").addEventListener("click", ()=>{
+    window.location.href = "../signup.html"
+})
+
+document.getElementById("allfeatures").addEventListener("click", ()=>{
+    window.location.href = "../features.html"
+})
+
+document.getElementById("testdrive").addEventListener("click", ()=>{
+    window.location.href = "../signup.html"
+})
+
+document.getElementById("testdrive1").addEventListener("click", ()=>{
+    window.location.href = "../signup.html"
+})

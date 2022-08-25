@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "sendinblue";
+    src: url(../files/Nicholas\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "footer";
+    src: url(../files/Poppins-Light.ttf);
+}
+
+body {
+    background-color: #044A75;
+    font-family: "footer", sans-serif;
+}
+
+#form {
+    background-color: white;
+    width: 27%;
+    margin: auto;
+    padding: 3%;
+    border-radius: 4px;
+}
+
+#seprator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+hr {
+    width: 46%;
+}
+
+.bypass {
+    display: flex;
+    border: 1px solid #0092FF;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0;
+    margin-bottom: 2%;
+}
+
+.bypass>img {
+    width: 5%;
+    margin-right: 5px;
+}
+
+body>div:nth-of-type(1)>img {
+    display: block;
+    margin: 1% auto 2% auto;
+    width: 17%;
+}
+
+#end {
+    display: flex;
+    margin: auto;
+    color: white;
+    width: fit-content;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: #044A75;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    font-family: "sendinblue", sans-serif;
+}
+
+input {
+    width: 94.5%;
+    margin: auto;
+    padding: 8px;
+    margin-top: 1%;
+}
+
+.tag {
+    color: grey;
+    margin-top: 7%;
+}
+
+#loginbtn {
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 8px;
+    border: 0;
+    background-color: #0092FF;
+    color: white;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "footer", sans-serif;
+}
+
+#loginbtn:hover {
+    cursor: pointer;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

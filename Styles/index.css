@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "sendinblue";
+    src: url(../files/Nicholas\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "footer";
+    src: url(../files/Poppins-Light.ttf);
+}
+
 p {
     font-family: "footer", sans-serif;
 }
@@ -31,8 +41,19 @@ p {
     font-size: 18px;
     color: white;
     background-color: #0092FF;
+    font-weight: 550;
     border: 0;
-    padding: 20px;
+    padding: 6% 10%;
+    border-radius: 40px;
+}
+
+.hmpagebtnex {
+    font-size: 18px;
+    color: white;
+    background-color: #0092FF;
+    font-weight: 550;
+    border: 0;
+    padding: 2% 6%;
     border-radius: 40px;
 }
 
@@ -87,7 +108,7 @@ p {
 }
 
 #container3>div:nth-of-type(1) img {
-    width: 28%;
+    width: 35%;
 }
 
 #container3>div:nth-of-type(1) h1 {
@@ -123,50 +144,6 @@ p {
 
 #container3>div:nth-of-type(2)>p {
     font-size: 16px;
-}
-
-.featurecard {
-    display: flex;
-    gap: 40px;
-    margin: 50px auto 20px auto;
-}
-
-.featurecard img {
-    display: inline;
-    margin-top: 10px;
-}
-
-.featurecard h2 {
-    display: inline;
-    font-size: 25px;
-    font-family: "footer", sans-serif;
-    color: #091E3F;
-    margin-left: 5px;
-}
-
-.featurecard p {
-    margin-top: 20px;
-    margin-left: 50px;
-    font-size: 15px;
-}
-
-.featurecard>div:nth-of-type(2) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;            
-}
-
-.featurecard>div:nth-of-type(2)>div {
-    padding: 5px;
-    align-items: center;
-}
-
-#esci {
-    column-gap: 50px;
-}
-
-#lsf {
-    column-gap: 72px;
 }
 
 #container3>button {
@@ -357,4 +334,19 @@ p {
 #container6 h1 {
     font-size: 45px;
     margin-bottom: 7%;
+}
+
+.hover:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hmpagebtn:hover {
+    background-color: #044A75;
+    cursor: pointer;
+}
+
+.hmpagebtnex:hover {
+    background-color: #044A75;
+    cursor: pointer;
 }

@@ -48,6 +48,12 @@ body {
     width: 15%;
 }
 
+
+#navbar button:hover {
+    background-color: #044A75;
+    cursor: pointer;
+}
+
 #navbar button {
     font-size: 18px;
     color: white;
