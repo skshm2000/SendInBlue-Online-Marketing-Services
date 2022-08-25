@@ -53,8 +53,9 @@ body {
     color: white;
     background-color: #0092FF;
     border: 0;
-    padding: 20px;
+    padding: 13px;
     border-radius: 40px;
+    margin-left: 10PX;
 }
 
 #footer {

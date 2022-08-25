@@ -3,6 +3,8 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="./Styles/header&footer.css">
+
     <title>why-sendinblue</title>
 </head>
 <style>
@@ -143,7 +145,7 @@
 
     #container4 {
         margin-top: 100px;
-        margin-top: -30px;
+   
         text-align: center;
     }
 
@@ -154,13 +156,140 @@
         -webkit-font-smoothing: antialiased;
         font-size: 20px;
         line-height: 26px;
-        
+
     }
 
     iframe {
         width: 400px;
         height: 400px;
     }
+
+
+
+    #container6 {
+        margin-top: 100px;
+        width: 100%;
+        height: 700px;
+
+    }
+
+    #photo4 {
+        margin: auto;
+        height: 100%;
+        width: 60%;
+        background-color: #f9d5cb;
+        display: flex;
+    }
+
+    #photo4>img {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        left: -120px;
+    }
+
+
+
+    #exp {
+        width: 420px;
+        height: 700px;
+    }
+
+    #exp>h1 {
+        font-family: PublicoHeadline-Bold-Web;
+        color: #091E3F;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    #exp>p {
+        font-family: OpenSans-Regular;
+        color: #606469;
+        -webkit-font-smoothing: antialiased;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #exp>a {
+        color: #0092FF;
+        font-family: OpenSans-Regular;
+        -webkit-font-smoothing: antialiased;
+        font-size: 20px;
+        line-height: 22px;
+        text-decoration: none;
+
+    }
+
+    #container7 {
+        margin: auto;
+        border: 2px solid  gray;;
+        height: 200px;
+        padding: 50px;
+        width: 70%;
+        margin-top: 150px;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 100px;
+
+    }
+
+    #car {
+        height: 190px;
+        width: 100%;
+        display: flex;
+        gap: 150px;
+    }
+
+    #car>img {
+        width: 120px;
+        height: 120px;
+        padding: 30px;
+
+    }
+
+    #car>h1 {
+        width: 320px;
+        padding: 20px;
+        font-size: 40px;
+
+    }
+
+    #car>button {
+        height: 60px;
+        background-color: #0092FF;
+        color: white;
+        font-weight: bold;
+        src: url(../files/Nicholas\ Bold.ttf);
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        border-radius: 30px;
+        margin-top: 70px;
+        font-size: 20px;
+        width: 250px;
+
+
+    }
+
+    #container8>h1 {
+
+font-family: PublicoHeadline-Bold-Web;
+color: #091E3F;
+font-size: 60px;
+line-height: 60px;
+width: 650px;
+margin: auto;
+}
+#container8{
+padding: 600px;
+
+}
+#footer{
+    margin-top: 200px;
+}
+
 
     @media all and (min-width:500px) and (max-width:1500px) {
 
@@ -278,6 +407,7 @@
 </style>
 
 <body>
+    <div id="navbar"></div>
     <div id="container1">
         <div id="exp1">
             <h1 id="Bring">Bring your business online. We’ve got your back.</h1>
@@ -296,7 +426,6 @@
         </div>
     </div>
 
-
     <div id="container2">
         <div id="exp2">
             <h1 id="Bring2">Grow faster with our all-in-one marketing platform</h1>
@@ -313,9 +442,6 @@
         </div>
 
     </div>
-
-
-
 
     <div id="container3">
 
@@ -336,7 +462,6 @@
         </div>
     </div>
 
-
     <div id="container4">
         <h1>
             Be where your customers are and <br> manage all your digital <br> communications in one place, with <br>
@@ -351,11 +476,100 @@
 
     </div>
 
+    <div id="container6">
 
 
 
 
+        <div id="photo4">
+            <img src="https://www.sendinblue.com/wp-content/uploads/2021/07/one-stop-shop.png" alt="">
+
+
+
+            <div id="exp">
+                <h1>Your one-stop-shop for eCommerce marketing</h1>
+                <p>It’s simple to connect your store to Sendinblue and prepare your online marketing for liftoff! Send
+                    personalized campaigns, convert Abandoned Cart users, target customers based on purchase activity,
+                    and much more.
+                    <br>
+                    <br>
+                    <br>
+                    Connect to 150 + integrations and customize your store backend your way!
+                </p>
+
+                <a href="">> See all our integrations</a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="container7">
+
+
+        <div id="car">
+            <img src="https://www.sendinblue.com/wp-content/uploads/2020/04/icn-start.svg" alt="">
+
+            <h1>Put the pedal to the metal on your marketing!</h1>
+
+            <button>Take a free test drive</button>
+
+        </div>
+
+    </div>
+
+
+
+    <divb id="container8">
+<h1>No matter who you are, we’ve got what you need.</h1>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer"></div>
 
 </body>
 
 </html>
+
+<script type="module">
+    import navbar from "./Components/exNavbar.js"
+    import footer from "./Components/exFooter.js"
+
+    let navbar1 = document.getElementById("navbar");
+    navbar1.innerHTML = navbar();
+
+    let footer1 = document.getElementById("footer");
+    footer1.innerHTML = footer();
+</script>
