@@ -155,7 +155,7 @@
 }
 .abox button {
     border-radius: 28px;
-    padding: 20px 100px;
+    padding: 20px 90px;
     border: 0px;
     font-weight: 550;
     font-size: 17px;
@@ -165,4 +165,41 @@
     font-size: 17px;
     color: #091e3f;
     font-weight: 400;
+}
+#container6 {
+    background-color: #ffd9d4;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 5%;
+    height: 340px;
+}
+#container6>img {
+    mix-blend-mode: darken;
+    width: 30%;
+    margin-right: 5%;
+    margin-left: -10%;
+}
+#container6>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+}
+#container6>div>button {
+    margin-left: -110px;
+    padding: 18.5px 24px;
+    font-weight:700;
+    font-size: 17px;
+    color: white;
+    background-color: #0092FF;
+    border: 0;
+    border-radius: 40px;
+}
+#container6 h1 {
+    font-size: 53px;
+    margin-bottom: 7%;
+    line-height: 50px;
+    color: #091e3f
 }
