@@ -7,6 +7,66 @@
     <title>All your digital marketing toos in one place - Sendinblue</title>
     <link rel="stylesheet" href="./Styles/header&footer.css">    
     <link rel="stylesheet" href="./Styles/index.css">
+
+    <style>
+        .featurecard {
+            display: flex;
+            gap: 40px;
+            margin: 50px auto 20px auto;
+        }
+
+        .featurecard img {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .featurecard h2 {
+            display: inline;
+            font-size: 22px;
+            font-family: "footer", sans-serif;
+            color: #091E3F;
+        }
+
+        .featurecard p {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .featurecard>div:nth-of-type(2) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;            
+        }
+
+        .featurecard>div:nth-of-type(2)>div {
+            padding: 5px;
+            align-items: center;
+        }
+
+        .featurecard>div:nth-of-type(2)>div {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .featurecard>div:nth-of-type(2)>div>div {
+            margin-left: 10px;
+            width: 100%;
+        }
+
+        .featurecard>div:nth-of-type(2) img {
+            display: block;
+            margin-top: 0px;
+        }
+
+        #esci {
+            column-gap: 35px;
+        }
+
+        #lsf {
+            column-gap: 45px;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
     <div id="navbar"></div>
@@ -18,7 +78,7 @@
                 <div id="line"></div>
                 <p>Sendinblue is the smartest and most<br> intuitive platform for growing businesses.<br> Thrive digitally as we guide your business<br> with the right marketing & sales tools.</p>
             </div>
-            <button class="hmpagebtn" style="margin-left: 10px; margin-top: 20px;">Take a free test Drive!</button>
+            <button class="hmpagebtn" id="testdrive1">Take a free test Drive!</button>
         </div>
         <div>
             <video height="550px" width="800px" muted autoplay preload="auto" playsinline loop> 
@@ -64,40 +124,32 @@
                 </div>
                 <div id="esci">
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Email-Marketing@1x.svg" alt="">  
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Email-Marketing@1x.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>Email Marketing</h2>
                             <p>Get the word out and sell<br> more with sleek email<br> messages that you can<br> design in no time</p>
-                         </div> 
+                        </div>
                     </div>
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-sms.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-sms.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>SMS marketing</h2>
                             <p>Communicate more directly<br> with customers for urgent<br> messages or time-sensitive<br> offers</p>
-                         </div> 
+                        </div>
                     </div>
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Chat@1x.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Chat@1x.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>Chat</h2>
                             <p>Be there for customers<br> instantly when they have a<br> question while browsing your<br> site</p>
-                         </div> 
+                        </div>
                     </div>
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/11/Inbox-2.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/11/Inbox-2.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>Inbox</h2>
                             <p>Keep your teams organized<br> with a shared inbox and<br> never lose track of your<br> customer email history<br> again.</p>
-                         </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,40 +159,33 @@
                 </div>
                 <div id="esci">
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-crm.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-crm.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>CRM</h2>
                             <p>Build stronger relationships<br> by keeping track of all your<br> customer details in one place</p>
-                         </div> 
+                        </div>
                     </div>
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Marketing-Auto@1x.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Marketing-Auto@1x.svg" alt=""> 
-                        </div>
-                         <div>
-                            <h2>Marketing Automation</h2>
+                        <h2>Marketing Automation</h2>
                             <p>Save time and boost<br> performance by automating<br> your segmentation and<br> marketing messages</p>
-                         </div> 
+                        </div>
                     </div>
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-transactionmail.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-transactionmail.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>Transactional Email</h2>
                             <p>Step up the design,<br> engagement, and<br> deliverability of your<br> transactional email messages</p>
-                         </div> 
+                        </div>
+                        
                     </div>
                     <div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/segmentation@1x.svg" alt="">
                         <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/segmentation@1x.svg" alt=""> 
-                        </div>
-                         <div>
                             <h2>Segmentation</h2>
                             <p>Get more engagement by<br> sending your marketing <br>messages to a more targeted<br> audience.</p>
-                         </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,27 +195,21 @@
                 </div>
                 <div id="esci">
                     <div>
-                        <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-landing.svg" alt="">
-                        </div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-landing.svg" alt="">
                         <div>
                             <h2>Landing Pages</h2>
                             <p>Create a more targeted<br> visitor experience with<br> dedicated pages for each of<br> your campaigns</p>
-                        </div> 
+                        </div>
                     </div>
                     <div>
-                        <diV>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-signup.svg" alt="">
-                        </diV>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-signup.svg" alt="">
                         <div>
                             <h2>Signup forms</h2>
                             <p>Grow your email contact list<br> with custom forms that you<br> can integrate in your website</p>
-                        </div> 
+                        </div>
                     </div>
                     <div>
-                        <div>
-                            <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-fb.svg" alt="">
-                        </div>
+                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-fb.svg" alt="">
                         <div>
                             <h2>Facebook Ads</h2>
                             <p>Launch Facebook ads from<br> your account to retarget<br> contacts or reach new<br> audiences based on your<br> contact lists</p>
@@ -179,7 +218,7 @@
                 </div>
             </div>
         </div>
-        <button class="hmpagebtn">All features</button>
+        <button class="hmpagebtnex" id="allfeatures">All features</button>
         <hr>
         <div>
             <div style="margin-right:310px">
@@ -263,7 +302,7 @@
         <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/why/start-illu.jpg" alt="">
         <div>
             <h1>Take your digital<br>marketing to the<br> next level!</h1>
-            <button class="hmpagebtn">Houston, we have lift-off!</button>
+            <button class="hmpagebtn" id="testdrive">Houston, we have lift-off!</button>
         </div>
     </div>
     <div id="footer"></div>
