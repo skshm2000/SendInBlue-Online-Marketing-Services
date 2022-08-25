@@ -8,7 +8,7 @@ function navbar() {
         <p id="blog">Blog</p>
     </div>
     <div>
-        <p id="login">Log in</p>
+        <p id="login" style="font-size:15px">Log in</p>
         <button id="signup">Sign up free</button>
     </div>`
 }
