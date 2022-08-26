@@ -38,3 +38,61 @@ body{
     margin-top: 20px;
     
 }
+.three{
+
+    width:80%;
+    display:flex;
+    margin:auto;
+    margin-top: 100px;
+}
+.three>div:last-child{
+    margin-left: 40px;
+}
+.three>div>h1{
+    font-size: 50px;
+}
+.three>div>p{
+    font-size: 19px;
+    color: rgb(92, 90, 90);
+}
+.three>div>p:nth-child(4){
+    text-align: center;
+    margin-bottom: 60px;
+}
+.three>div>p>a{
+    text-decoration: none;
+}
+.three>div>ul>li{
+    font-size: 19px;
+}
+.three>div>a{
+    font-size: 19px;
+    text-decoration: none;
+}
+.four{
+    width:80%;
+    display:flex;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.four>div:last-child{
+    margin-left: 40px;
+}
+.four>div>h1{
+    font-size: 50px;
+}
+.four>div>p{
+    font-size: 19px;
+    color: rgb(92, 90, 90);
+}
+.four>div>ul>li{
+    font-size: 19px;
+}
+.four>div>ul{
+    margin-bottom: 60px;
+}
+.four>div>a{
+    font-size: 19px;
+    text-decoration: none;
+}
