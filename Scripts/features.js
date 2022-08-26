@@ -11,17 +11,18 @@ function videoElement() {
 function widht(){
     let container = document.querySelector('#top-section-child:nth-child(2)');
     container.innerHTML='';
-    if(window.matchMedia('(min-width: 500px)') ) {
+    if ((window.matchMedia('(min-width: 1200px)') )) {
+        console.log(videoElement())
+        container.innerHTML=videoElement();
+        console.log(container)
+    }
+    else {
         console.log(' if window resized',"width:",screen.availWidth,"height:",screen.availHeight)
         let img = document.createElement('img');
         img.src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/home/section-video/cover.png"
         img.style.width="100%"
         img.style.height='100%'
         container.append(img)
-    } else {
-        console.log(videoElement())
-        container.innerHTML=videoElement();
-        console.log(container)
     }
     
 }
