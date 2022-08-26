@@ -11,8 +11,8 @@ function footer() {
 </div>
 <div id="two">
     <div>
-        <div>
-            <img id="person" src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" alt="">
+        <div style=width:33%">
+            <img id="person" src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" style="width:90%; height:150px"alt="">
         </div>
         <div id="text">
             <p>Email, SMS, Facebook, Chat, CRM, and more, all-in-one platform to help you grow your business through building stronger customer relationships.</p>
@@ -21,7 +21,7 @@ function footer() {
     </div>
     <div>
         <div>
-            <p class="head">Solutions</p>
+            <p id="head" style="color:#091E3F;font-size: 19.5px;font-weight:700;margin-bottom:27px">Solutions</p>
             <p>Features</p>
             <p>Enterprise offer</p>
             <p>Sendinblue vs. Mailchimp</p>
@@ -29,7 +29,7 @@ function footer() {
             <p>Partner with us</p>
         </div>
         <div>
-            <p class="head">Company</p>
+            <p id="head" style="color:#091E3F;font-size: 19.5px;font-weight:700;margin-bottom:27px">Company</p>
             <p>About us</p>
             <p>Jobs</p>
             <p>Press</p>
@@ -38,7 +38,7 @@ function footer() {
             <p>GDPR</p>
         </div>
         <div>
-            <p class="head">Resources</p>
+            <p id="head" style="color:#091E3F;font-size:19.5px;font-weight:700;margin-bottom:27px">Resources</p>
             <p>Blog</p>
             <p>Help Center</p>
             <p>Sendinblue academy</p>

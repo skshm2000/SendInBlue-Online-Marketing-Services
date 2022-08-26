@@ -28,7 +28,7 @@ body {
 }
 
 #navbar>img {
-    width: 15%;
+    width: 17%;
 }
 
 #navbar>div {
@@ -36,34 +36,42 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+#navbar p {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 #navbar>div:first-of-type {
-    width: 30%;
-    font-size: 18px;
-    color: grey;
+    width: 44%;
+    color: grey;   
 }
 
 #navbar>div:nth-of-type(2) {
-    font-size: 17px;
-    width: 15%;
+    width: 19%;
+    font-weight: 700;
+}
+
+
+#navbar button:hover {
+    background-color: #044A75;
+    cursor: pointer;
 }
 
 #navbar button {
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 700;
     color: white;
     background-color: #0092FF;
     border: 0;
-    padding: 13px;
+    padding: 20px 36px;
     border-radius: 40px;
     margin-left: 10PX;
 }
-
 #footer {
-    padding: 1% 17%;
+    padding: 4% 11.2% 2% 11.2%;
     font-family: "footer", sans-serif;
     position: relative;
     bottom: 0px;
-    background-color: white;
 }
 
 #one {
@@ -91,13 +99,13 @@ body {
     display: flex;
     margin: auto;
     margin-top: 5%;
-    
 }
-
+#head {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #two>div:nth-of-type(1) {
     display: flex;
     width: 40%;
-    justify-content: center;
 }
 
 #person {
@@ -109,19 +117,15 @@ body {
     display: flex;
     width: 40%;
 }
-
+#two p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
 #text {
-    width: 70%;
-    font-size: 14px;
+    width: 60%;
+    margin-top:10px;
+    margin-left: 12px;
 }
-
-.head {
-    color: #091E3F;
-    font-size: 17px;
-    font-weight: bold;
-
-}
-
 #two>div:nth-of-type(2) {
     justify-content: space-around;
     width: 55%;

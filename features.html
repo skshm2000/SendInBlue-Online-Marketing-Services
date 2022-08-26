@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./Styles/header&footer.css"> -->
-    <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="./Styles/header&footer.css">
+    <link rel="stylesheet" href="./Styles/features.css">
     
 </head>
 <body>
@@ -19,7 +19,9 @@
             <button id="top-section-test-drive-button">Take a free test drive!</button>
         </div>
         <div id="top-section-child">
-            <iframe src="https://player.vimeo.com/video/325682854?h=e9209483ba&title=0&byline=0&portrait=0&autoplay=0" width="100%" height="100%" frameborder="0" allow="autoplay"></iframe>
+            <video  height="75%" width="600px" style=" margin-top: -25px " muted autoplay preload="auto" playsinline loop> 
+                <source src="./files/features.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
     <div class="features-section">
@@ -350,6 +352,19 @@
         </div>
     </div>
     
+    <div id="above-footer">
+        <div id="above-footer-video">
+            <video   muted autoplay preload="auto" > 
+                <source src="./files/features1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="above-footer-info">
+            <div id="ready">Ready to find your marketing zen?</div>
+            <div id="take-the-stress">Take the stress out of your work day with a solution that’s built for you!</div>
+            <button id="above-footer-section-test-drive-button">Get started free</button>
+        </div>
+    </div>
+    <div id="footer"></div>
 </body>
 </html>
-<script src="features.js" type="module"></script>
+<script src="./Scripts/features.js" type="module"></script>
