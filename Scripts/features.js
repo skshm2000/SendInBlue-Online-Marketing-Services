@@ -1,5 +1,7 @@
 import navbar from "../Components/exNavbar.js"
 import footer from "../Components/exFooter.js"
+import navbarworks from "../Components/navbarcontrols.js"
+import navbarLogout from "../Components/navbarfunc.js"
 
 document.querySelector('#navbar').innerHTML = navbar()
 document.querySelector('#footer').innerHTML = footer();
@@ -29,3 +31,6 @@ function widht(){
 
 window.onresize = widht
 console.log('availScreenWidth',screen.availWidth)
+
+navbarworks()
+navbarLogout()

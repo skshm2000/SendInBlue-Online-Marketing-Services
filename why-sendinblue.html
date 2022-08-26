@@ -566,10 +566,15 @@ padding: 600px;
 <script type="module">
     import navbar from "./Components/exNavbar.js"
     import footer from "./Components/exFooter.js"
+    import navbarworks from "../Components/navbarcontrols.js"
+    import navbarLogout from "../Components/navbarfunc.js"
 
     let navbar1 = document.getElementById("navbar");
     navbar1.innerHTML = navbar();
 
     let footer1 = document.getElementById("footer");
     footer1.innerHTML = footer();
+
+    navbarworks()
+    navbarLogout()
 </script>

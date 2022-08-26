@@ -51,7 +51,6 @@ body {
     font-weight: 700;
 }
 
-
 #navbar button:hover {
     background-color: #044A75;
     cursor: pointer;
@@ -63,10 +62,11 @@ body {
     color: white;
     background-color: #0092FF;
     border: 0;
-    padding: 20px 36px;
+    padding: 10% 15%;
     border-radius: 40px;
     margin-left: 10PX;
 }
+
 #footer {
     padding: 4% 11.2% 2% 11.2%;
     font-family: "footer", sans-serif;
@@ -137,4 +137,14 @@ body {
     justify-content: space-between;
     margin-left: 10px;
     padding-top: 2%;
+}
+
+.hover:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hmpagebtn:hover {
+    background-color: #044A75;
+    cursor: pointer;
 }

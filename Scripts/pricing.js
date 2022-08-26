@@ -1,3 +1,7 @@
+import navbarworks from "../Components/navbarcontrols.js"
+import navbarLogout from "../Components/navbarfunc.js"
+
+
 var acc = document.getElementsByClassName("accordion");
     var i;
     
@@ -12,3 +16,7 @@ var acc = document.getElementsByClassName("accordion");
         }
       });
     }
+
+navbarworks()
+navbarLogout()
+

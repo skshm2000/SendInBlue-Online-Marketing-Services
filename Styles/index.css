@@ -404,11 +404,6 @@ p {
     margin-bottom: 7%;
 }
 
-.hover:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 .hmpagebtn:hover {
     background-color: #044A75;
     cursor: pointer;
@@ -417,4 +412,9 @@ p {
 .hmpagebtnex:hover {
     background-color: #044A75;
     cursor: pointer;
+}
+
+#testdrive1 {
+    margin-left: 1%;
+    margin-top: 5%;
 }
