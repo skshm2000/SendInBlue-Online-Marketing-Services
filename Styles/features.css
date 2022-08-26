@@ -297,4 +297,8 @@ hr {
         margin-top: 30px;
         width: 30%;
     }
+    #top-section-child>video {
+        height: 100%;
+        padding-top: 30px;
+    }
 }
