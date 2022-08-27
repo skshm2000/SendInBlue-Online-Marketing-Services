@@ -53,10 +53,18 @@
 }
 
 #rectangle-image{
-    /* object-fit: cover;
-    object-position: 50% 50%; */
-    background: url(https://www.sendinblue.com/wp-content/uploads/2021/07/Labor-day-email.png); 
-    background-size: 100% 180% ; 
+    /* background-size: 100% 180% ;  */
+    overflow: hidden;
+}
+#rectangle-image img {
+    width: 100%;
+}
+#rectangle-image img:hover {
+    transition-duration: 1.5s;
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #profile {
@@ -66,8 +74,6 @@
     place-content: center;
 }
 #profile>div {
-
-    /* border: 1px solid rgb(105, 158, 255); */
     margin: auto;
     width: 100%;
     height: 100%;
@@ -190,21 +196,26 @@ h6{
 }
 
 #articles img{
-    width: 90%;
-    /* border: 1px solid red; */
-    display: block;
-    margin: auto;
-}    
+    width: 100%;
+    /* width: 100%; */
+    overflow: hidden;
+    
+}  
+#articles img:hover {
+    transition-duration: 1.5s;
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}  
 #articles> div{
     box-shadow: 0 12px 30px 0 rgb(59 59 97 / 18%);
 }
-
+/* 
 #articles img:hover{
-    transition-duration: 1.5s;
+    
     width: 100%;
-
-    /* border: 1px solid rebeccapurple; */
-}
+} */
 #card_info{
     width: 90%;
     margin: auto;
@@ -220,8 +231,15 @@ h6{
 #card-date{
     margin-top: 25px;
 }
-#card-image{
+#card_image{
     width: 100%;
+    overflow: hidden;
+}
+#card_image img:hover {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 @media screen and (min-width: 500px) and (max-width: 1200px) {
@@ -255,7 +273,7 @@ h6{
 
 #show_buttons{
     width: 85%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     display: flex;
     place-content: center;

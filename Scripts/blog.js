@@ -1,7 +1,9 @@
+
 import navbar from "../Components/exNavbar.js"
 import footer from "../Components/exFooter.js"
 import navbarworks from "../Components/navbarcontrols.js"
 import navbarLogout from "../Components/navbarfunc.js"
+
 
 
 document.querySelector('#navbar').innerHTML = navbar()
@@ -183,3 +185,5 @@ function buttonDecoration(page_no,data,limit) {
 
 document.querySelector('#paginate_button').style.backgroundColor ="#044a75";
 document.querySelector('#paginate_button').style.color = "#fff";
+
+
