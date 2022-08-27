@@ -3,6 +3,7 @@ import footer from "../Components/exFooter.js"
 import navbarworks from "../Components/navbarcontrols.js"
 import navbarLogout from "../Components/navbarfunc.js"
 
+
 document.querySelector('#navbar').innerHTML = navbar();
 document.querySelector('#footer').innerHTML = footer();
 
@@ -41,6 +42,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "";
   }
 }
+
 
 let datetime = new Date().toLocaleTimeString();
 console.log(datetime);
