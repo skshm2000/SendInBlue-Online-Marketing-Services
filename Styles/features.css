@@ -53,30 +53,37 @@
 #top-section-test-drive-button,#above-footer-section-test-drive-button {
     /* display: block; */
     margin-top: 60px;
-    width: 40%;
+    width: 60%;
     height: 60px;
     background-color: #0092FF;
     border: none;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     color: #FFF;
     font-family: sans-serif;
+    padding-left: 40px;
+    padding-right: 40px
 }
 #top-section-test-drive-button:hover , #above-footer-section-test-drive-button:hover{
-    background-color: #044A75;;
+    background-color: #044A75;
 }
 button:hover{
     cursor: pointer;
 }
 
-.features-section {  
+/* .features-section {  
+    background: linear-gradient(180deg, #EEECEB 0%, #fff 100%);
+} */
+
+#ritesh {
     background: linear-gradient(180deg, #EEECEB 0%, #fff 100%);
 }
 
 
 #features-child {
     padding-top: 100px;
+    /* border: 1px solid red; */
 }
 #features-child:nth-child(2) {
     padding-bottom: 100px;
@@ -141,12 +148,16 @@ button:hover{
 
 #read-more {
     margin-top: 20px;
+    /* background-color: green; */
+}
+#read-more:hover{
+    transition-duration: 1.5s;
+    word-spacing: 40px;
 }
 
 hr {
     margin: auto;
     width: 60%;
-    
 }
 
 #card-info>div:nth-child(3)>h3{
@@ -188,9 +199,7 @@ hr {
     display: grid;
     justify-content: center;
 }
-#above-footer-video>iframe {
-    width: 120%;
-}
+
 #ready {
     font-size: 54px;
     color: #091E3F;
@@ -220,6 +229,16 @@ hr {
 
 
 @media screen and (min-width: 500px) and (max-width: 1200px) {
+    #top-section-test-drive-button{
+        margin-bottom: 100px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    hr{
+        margin-top: 100px;
+        width: 90%;
+    }
     #features-child:nth-child(2) {
         width: 100%;
         display: grid;
@@ -267,9 +286,6 @@ hr {
         
     }
 
-    iframe {
-        height: 500px;
-    }
     #pedal {
         width: 100%;
     }
@@ -297,4 +313,5 @@ hr {
         margin-top: 30px;
         width: 30%;
     }
+
 }

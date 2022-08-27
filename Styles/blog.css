@@ -1,0 +1,345 @@
+
+@font-face {
+    font-family: "sendinblue";
+    src: url(../files/Nicholas\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "footer";
+    src: url(../files/Poppins-Light.ttf);
+}
+
+
+
+#heading {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+}
+#heading >h1 {
+    
+    text-align: center;
+    font-size: 75px;
+    color: #091E3F;
+}
+
+#top-section {
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 67% 31%;
+    gap: 2%;
+}
+#newsletter-background {
+    width: 100%;
+}
+
+#top-section-child {
+    /* border: 1px solid violet; */
+    height: 346px;
+    box-shadow: 0 12px 36px 0 rgb(59 59 97 / 20%);
+}
+
+#top-section-child:nth-child(2) {
+    background: url(https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/marketing-newsletter/form-background.png);
+    background-size: 100% ;
+}
+
+#top-section-child:nth-child(1)>div {
+    height: 50%;
+}
+
+#rectangle-image{
+    /* background-size: 100% 180% ;  */
+    overflow: hidden;
+}
+#rectangle-image img {
+    width: 100%;
+}
+#rectangle-image img:hover {
+    transition-duration: 1.5s;
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#profile {
+    display: grid;
+    grid-template-columns: 31% 66%;
+    gap: 3%;
+    place-content: center;
+}
+#profile>div {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-family: footer;
+}
+#profile-image>img{
+    display: grid;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+#profile-image>h2{
+    text-align: center;
+    color: #606469;
+}
+#profile-image>p{
+    text-align: center;
+    color: #606469;
+}
+#labor-day-heading{
+    color: #091E3F;
+}
+#labor-day-para {
+    width: 95%;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #606469;
+}
+
+#newsletter {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color: white;
+    margin-top: -30px;
+}
+#inbox-image {
+    
+    width: 80px;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: white;
+    margin-top: 10px;
+    position: absolute;
+    top: 313px;
+    right: 18%;
+}
+
+#inbox-image>img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#newsletter>h1{
+    padding-top: 30px;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 80px;
+}
+#newsletter p {
+    width: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+#email {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 15%;
+}
+#email>input , #subscribe {
+    border-radius: 16px;
+    height: 25px;
+    text-align: center;
+    font-family: footer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#subscribe {
+    font-weight: normal;
+    height: 30px;
+    background-color:  #0092FF;
+    color: white;
+    border: 0px;
+    font-family: footer;
+    font-size: 16px;
+}
+h6{
+    width: 100%;
+    font-family: footer;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: lighter;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#articles{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+    font-family: footer;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+#articles img{
+    width: 100%;
+    /* width: 100%; */
+    overflow: hidden;
+    
+}  
+#articles img:hover {
+    transition-duration: 1.5s;
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}  
+#articles> div{
+    box-shadow: 0 12px 30px 0 rgb(59 59 97 / 18%);
+}
+/* 
+#articles img:hover{
+    
+    width: 100%;
+} */
+#card_info{
+    width: 90%;
+    margin: auto;
+}
+#card-heading {
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#card-reading-time{
+    margin-bottom: 20px;
+}
+#card-date{
+    margin-top: 25px;
+}
+#card_image{
+    width: 100%;
+    overflow: hidden;
+}
+#card_image img:hover {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px) {
+    #top-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #top-section-child:nth-child(2){
+        width: 65%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    #articles{
+        grid-template-columns: 1fr;
+        padding-bottom: 500px;
+    }
+    #above-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #above-footer-section-test-drive-button{
+        width: 190%;
+    }
+}
+
+#footer{
+    display: block;
+    /* margin-top: 700px; */
+}
+
+#show_buttons{
+    width: 85%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    place-content: center;
+    gap: 20px;
+    /* margin-top: 80px; */
+}
+
+#paginate_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: none;
+    color: #606469;
+    font-family: footer;
+    font-weight: bolder;
+    border-radius: 8px;
+    font-size: x-large;
+}
+
+#above-footer {
+    width: 100%;
+    background-color: #FFD9D4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+}
+
+#above-footer-video{
+    display: grid;
+    justify-content: center;
+}
+#above-footer-video>iframe {
+    width: 120%;
+}
+#ready {
+    font-size: 54px;
+    color: #091E3F;
+    font-family: sendinblue;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+
+#take-the-stress {
+    font-size: 20px;
+    font-family: footer;
+    color: #606469;
+}
+#above-footer-info {
+    width: 80%;
+    display: grid;
+    place-content: center;
+}
+#above-footer-section-test-drive-button {
+    margin-top: 40px;
+    margin-top: 60px;
+    width: 40%;
+    height: 60px;
+    background-color: #0092FF;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+#above-footer-section-test-drive-button:hover{
+    background-color: #091E3F;
+}
