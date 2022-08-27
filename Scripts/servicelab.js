@@ -28,7 +28,7 @@ function scrollFunction() {
     document.getElementById("login").style.color="black";
   }
   else if(document.body.scrollTop <= 7 || document.documentElement.scrollTop <= 7){
-    document.getElementById("navbar").style.backgroundColor = "rgb(23, 85, 143)";
+    document.getElementById("navbar").style.backgroundColor = "#044A75";
     document.getElementById("navbar").style.boxShadow ="0px 0px 0px 0px";
     document.getElementById("solutions").style.color="white";
     document.getElementById("pricing").style.color="white";
@@ -247,11 +247,7 @@ function slide()
 //   let container=document.getElementsByClassName("nine");
 //   //console.log("fun called");
 //   if(i==3)
-//   {
-//     i=0;
-//   }
-//   container.innerHTML="";
-//   console.log(container+"My Container");
+// console.log(container+"My Container");
 //   container.innerHTML=month[i++];
   
 //   document.getElementById("slideshow").addEventListener("click",function(){
@@ -259,7 +255,11 @@ function slide()
 //     //document.getElementById("slideshow").style.backgroundColor="Green";
 //   });
 //   console.log(container);
-// }
+// }  {
+//     i=0;
+//   }
+//   container.innerHTML="";
+//   
 
 
 
