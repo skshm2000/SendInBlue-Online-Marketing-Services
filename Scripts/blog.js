@@ -1,8 +1,4 @@
-import navbar from "../Components/exNavbar.js"
-import footer from "../Components/exFooter.js"
 
-document.querySelector('#navbar').innerHTML = navbar()
-document.querySelector('#footer').innerHTML = footer();
 
 let image = [
     'https://www.sendinblue.com/wp-content/uploads/2019/07/email_autoresponder-768x298.png',
@@ -174,3 +170,5 @@ function buttonDecoration(page_no,data,limit) {
 
 document.querySelector('#paginate_button').style.backgroundColor ="#044a75";
 document.querySelector('#paginate_button').style.color = "#fff";
+
+

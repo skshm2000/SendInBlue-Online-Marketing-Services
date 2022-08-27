@@ -5,6 +5,8 @@ import navbarLogout from "../Components/navbarfunc.js"
 
 document.querySelector('#navbar').innerHTML = navbar()
 document.querySelector('#footer').innerHTML = footer();
+
+
 function videoElement() {
         return `<video  height="75%" width="600px" style=" margin-top: -25px " muted autoplay preload="auto" playsinline loop> 
         <source src="./files/features.mp4" type="video/mp4">
