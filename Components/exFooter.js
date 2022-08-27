@@ -16,11 +16,11 @@ function footer() {
         </div>
         <div id="text">
             <p>Email, SMS, Facebook, Chat, CRM, and more, all-in-one platform to help you grow your business through building stronger customer relationships.</p>
-            <p>>Why Sendinblue?</p>
+            <p id="change_colour"> > Why_Sendinblue?</p>
         </div>
     </div>
     <div>
-        <div>
+        <div class="saksham"> 
             <p id="head" style="color:#091E3F;font-size: 19.5px;font-weight:700;margin-bottom:27px">Solutions</p>
             <p>Features</p>
             <p>Enterprise offer</p>
@@ -28,7 +28,7 @@ function footer() {
             <p>Service Lab</p>
             <p>Partner with us</p>
         </div>
-        <div>
+        <div class="saksham">
             <p id="head" style="color:#091E3F;font-size: 19.5px;font-weight:700;margin-bottom:27px">Company</p>
             <p>About us</p>
             <p>Jobs</p>
@@ -37,7 +37,7 @@ function footer() {
             <p>Contact us</p>
             <p>GDPR</p>
         </div>
-        <div>
+        <div class="saksham">
             <p id="head" style="color:#091E3F;font-size:19.5px;font-weight:700;margin-bottom:27px">Resources</p>
             <p>Blog</p>
             <p>Help Center</p>

@@ -194,6 +194,10 @@ video {
   line-height: 22px;
   text-decoration: none;
 }
+#exp > a:hover {
+  transition-duration: 1.5s;
+  word-spacing: 40px;
+}
 
 #container7 {
   margin: auto;
@@ -682,6 +686,10 @@ video {
   font-weight: bold;
 }
 
+#down > div > p:nth-child(2):hover {
+  transition-duration: 1.5s;
+  word-spacing: 40px;
+}
 #down > div > p:nth-child(1) {
   color: #606469;
 }
@@ -712,4 +720,52 @@ video {
 #picc > img {
   width: 100%;
   height: 100%;
+}
+
+#above-footer {
+  width: 100%;
+  background-color: #ffd9d4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 400px;
+}
+
+#above-footer-video {
+  display: grid;
+  margin-top: 100px;
+  justify-content: center;
+}
+#above-footer-info {
+  width: 80%;
+  display: grid;
+  place-content: center;
+}
+#above-footer-section-test-drive-button {
+  margin-top: 40px;
+  background-color: #0092ff;
+  font-family: sans-serif;
+  width: 200px;
+  padding: 17px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+}
+
+#above-footer-section-test-drive-button:hover{
+  background-color: #044a75;
+}
+#ready {
+  font-size: 54px;
+  color: #091e3f;
+  font-family: sendinblue;
+  margin-bottom: 20px;
+  line-height: 60px;
+}
+
+#take-the-stress {
+  font-size: 20px;
+  font-family: footer;
+  color: #606469;
 }

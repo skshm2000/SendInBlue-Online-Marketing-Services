@@ -14,7 +14,7 @@ function initLogin() {
         if(usersData[i].email == email) {
             stat = true
             if(usersData[i].pass == pass) {
-                alert("Signin Successfull! Taking you to homepage!")
+                alert("Login Successfull! Taking you to homepage!")
                 localStorage.setItem("currsibuser", JSON.stringify(usersData[i].email))
                 localStorage.setItem("siblogin", true)
                 setTimeout(success, 2000)

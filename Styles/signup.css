@@ -55,8 +55,11 @@ hr {
 }
 
 h1 {
-    font-family: "sendinblue", sans-serif;
+    /* font-family: "sendinblue", sans-serif; */
+    width: 700px;
     font-size: 40px;
+    color: var(--sib-color_content-primary, #1f2d3d);
+    font-family: var(--sib-typo_font-family-heading, "Publico", "Times New Roman", serif, "system-ui", "-apple-system");
 }
 
 .bypass {
@@ -108,4 +111,11 @@ input {
 
 #signupbtn:hover {
     cursor: pointer;
+    background-color: #044a75;
+}
+
+
+#form>p:nth-child(1){
+    color: var(--sib-color_content-primary, #1f2d3d);
+    font-family: var(--sib-typo_font-family--body, "Roboto-Regular", "system-ui", "-apple-system", sans-serif);
 }
