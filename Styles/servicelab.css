@@ -1,21 +1,25 @@
 body{
     margin:0;
 }
+#navbar{
+    background-color: rgb(23, 85, 143);
+    box-shadow: none;
+}
 .one{
     background-color: rgb(23, 85, 143);
     text-align: center;
     color:white;
-    margin-top: -60px;
+    
 }
 #top>h1{
     font-size: 78px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #top>p{
     font-size: 22px;
     width:60%;
     margin: auto;
-    margin-top:48px;
+    margin-top:0px;
 }
 .one>div>img{
     margin-top: 20px;
@@ -43,20 +47,23 @@ body{
     width:80%;
     display:flex;
     margin:auto;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .three>div:last-child{
     margin-left: 40px;
 }
 .three>div>h1{
     font-size: 50px;
+    margin-bottom:30px;
 }
 .three>div>p{
     font-size: 19px;
     color: rgb(92, 90, 90);
+    margin-bottom: 20px;
 }
 .three>div>p:nth-child(4){
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 60px;
 }
 .three>div>p>a{
@@ -67,7 +74,8 @@ body{
 }
 .three>div>a{
     font-size: 19px;
-    text-decoration: none;
+    text-decoration: none; 
+    color:#044A75;
 }
 .four{
     width:80%;
@@ -81,10 +89,12 @@ body{
 }
 .four>div>h1{
     font-size: 50px;
+    margin-bottom: 30px;
 }
 .four>div>p{
     font-size: 19px;
     color: rgb(92, 90, 90);
+    margin-bottom: 20px;
 }
 .four>div>ul>li{
     font-size: 19px;
@@ -101,17 +111,20 @@ body{
     width:80%;
     display:flex;
     margin:auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .five>div:last-child{
     margin-left: 40px;
 }
 .five>div>h1{
     font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 .five>div>p{
     font-size: 19px;
     color: rgb(92, 90, 90);
+    margin-bottom: 20px;
 }
 
 .five>div>ul>li{
@@ -126,17 +139,19 @@ body{
     text-decoration: none;
 }
 .six{
-    width:40%;
+    width:35%;
     margin: auto;
     margin-top: 100px;
     margin-left:10%;
 }
 .six>div>h1{
     font-size: 50px;
+    margin-bottom: 30px;
 }
 .six>div>p{
     font-size: 19px;
     color: rgb(92, 90, 90);
+    margin-bottom: 20px;
 }
 .six>div>ul>li{
     font-size: 19px;
@@ -158,7 +173,7 @@ body{
 .seven>h1{
     font-size: 50px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .seven>div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -174,9 +189,13 @@ body{
 .ione>p{
     padding-top: 40px;
 }
+.ione>h2{
+    padding-top: 10px;
+}
 .ione>p:last-child{
-    padding-top: 0px;
+    padding-top: 25px;
     font-size: 18px;
+    margin-bottom: 28px;
 }
 .ione>div{
     /* display:grid;
@@ -185,24 +204,27 @@ body{
     display:flex;
     column-gap: 10px;
     margin: auto;
-    
+    padding-top: 22px;
     margin-left:40%;
 }
 .ione>div>img{
     width:20px;
     height:20px;
-    padding-top: 15px;
+    
 }
 
+.nine>h3{
+    padding-top: 25px;
+}
 .itwo{
     display:flex;
     width:50%;
     margin:auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
     justify-content: space-between;
 }
-.nine>h3{
-    margin-left: 0px;
-}
+
 #outer{
     position:relative;
 }
@@ -212,15 +234,16 @@ body{
     margin: auto;
     display:grid;
     grid-template-columns: repeat(7,1fr);
-    gap:0px -4px;
+    gap:22px 18px;
 }
 #date>h5{
     color:rgb(180, 171, 171);
+    font-size: 18px;
 }
 #next{
     position:absolute;
-    top:48%;
-    left:39%;
+    top:50%;
+    left:41%;
     
 }
 #next>button{
@@ -232,16 +255,17 @@ body{
     font-size: 16px;
     color:rgb(57, 57, 235);
     font-weight: bold;
-    margin-top: -5px;
+    margin-top: 11px;
 }
 .ithree{
     display:flex;
     width:50%;
     margin:auto;
+    margin-top: 40px;
 }
 .ithree>img{
     width:15px;
     height:15px;
     padding-top: 16px;
-    
+    margin-top: -15px;
 }
