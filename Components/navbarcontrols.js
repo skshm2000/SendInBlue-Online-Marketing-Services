@@ -14,6 +14,10 @@ function navbarworks() {
     document.getElementById("resources").addEventListener("click", ()=>{
         window.location.href = "../servicelab.html"
     })
+
+    document.getElementById("blog").addEventListener("click", ()=>{
+        window.location.href = "../blog.html"
+    })
     
     document.getElementById("login").addEventListener("click", ()=>{
         window.location.href = "../login.html"
