@@ -188,11 +188,12 @@ video {
 
 #exp > a {
   color: #0092ff;
-  font-family: sans-serif bold;
+  font-family: sans-serif ;
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: 22px;
   text-decoration: none;
+  font-weight: bold;
 }
 #exp > a:hover {
   transition-duration: 1.5s;
