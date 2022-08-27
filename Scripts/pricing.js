@@ -1,7 +1,8 @@
-import navbarworks from "../Components/navbarcontrols.js"
-import navbarLogout from "../Components/navbarfunc.js"
+// import navbarworks from "../Components/navbarcontrols.js"
+// import navbarLogout from "../Components/navbarfunc.js"
 
-
+// let page = document.getElementById("pricing").innerText;
+// console.log('page');
 var acc = document.getElementsByClassName("accordion");
     var i;
     
@@ -17,19 +18,17 @@ var acc = document.getElementsByClassName("accordion");
       });
     }
 
-
-navbarworks()
-navbarLogout()
-
 function myfun() {
   let div = document.getElementById("vikalp");
   div.style.display = "block";
+  console.log("inside my fun");
 
 }
 function myfunc(x) {
   console.log(x);
   document.getElementById("input").value = x;
   let y = document.getElementById("search").value;
+  console.log("inside my func");
   kumar(y, x);
 }
 function myval() {
@@ -65,6 +64,7 @@ function kumar(amt, plc) {
     console.log(fromRate, toRate, searchValue);
     finalValue.innerHTML =`${((toRate / fromRate) * searchValue).toFixed(2)}€`;
     console.log(((toRate / fromRate) * searchValue).toFixed(2));
+
   }
 }
 

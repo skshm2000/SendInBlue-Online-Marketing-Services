@@ -5,6 +5,14 @@ import navbarLogout from "../Components/navbarfunc.js"
 
 document.querySelector('#navbar').innerHTML = navbar()
 document.querySelector('#footer').innerHTML = footer();
+
+document.getElementById("features").style.textDecoration = "underline";
+document.getElementById("features").style.color = "#091e3f";
+document.getElementById("features").style.fontWeight = "600";
+
+navbarworks()
+navbarLogout()
+
 function videoElement() {
         return `<video  height="75%" width="600px" style=" margin-top: -25px " muted autoplay preload="auto" playsinline loop> 
         <source src="./files/features.mp4" type="video/mp4">

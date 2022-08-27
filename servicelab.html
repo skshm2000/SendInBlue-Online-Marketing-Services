@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/servicelab.css">
+    <link rel="stylesheet" href="./Styles/header&footer.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div class="one">
         <div id="top">
             <h1>Service Lab</h1>
@@ -80,6 +82,26 @@
             <img src="https://www.sendinblue.com/wp-content/uploads/2021/03/landingpage.png"/>
         </div>    
     </div>
-
+    <div id="footer"></div>
 </body>
 </html>
+<script type="module">
+    import navbar from "./Components/exNavbar.js"
+    import footer from "./Components/exFooter.js"
+    import navbarworks from "../Components/navbarcontrols.js"
+    import navbarLogout from "../Components/navbarfunc.js"
+
+
+    let navbar1 = document.getElementById("navbar");
+    navbar1.innerHTML = navbar();
+    let footer1 = document.getElementById("footer");
+    footer1.innerHTML = footer();
+
+    navbarworks();
+    navbarLogout();
+
+    document.getElementById("resources").style.textDecoration = "underline";
+    document.getElementById("resources").style.color = "#091e3f";
+    document.getElementById("resources").style.fontWeight = "600";
+
+</script>

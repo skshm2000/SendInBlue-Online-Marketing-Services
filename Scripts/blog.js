@@ -1,8 +1,17 @@
 import navbar from "../Components/exNavbar.js"
 import footer from "../Components/exFooter.js"
+import navbarworks from "../Components/navbarcontrols.js"
+import navbarLogout from "../Components/navbarfunc.js"
 
 document.querySelector('#navbar').innerHTML = navbar()
 document.querySelector('#footer').innerHTML = footer();
+
+document.getElementById("blog").style.textDecoration = "underline";
+document.getElementById("blog").style.color = "#091e3f";
+document.getElementById("blog").style.fontWeight = "600";
+
+navbarworks()
+navbarLogout()
 
 let image = [
     'https://www.sendinblue.com/wp-content/uploads/2019/07/email_autoresponder-768x298.png',
