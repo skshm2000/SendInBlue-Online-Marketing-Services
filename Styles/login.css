@@ -97,6 +97,7 @@ input {
 
 #loginbtn:hover {
     cursor: pointer;
+    background-color: #044A75;
 }
 
 .underline:hover {

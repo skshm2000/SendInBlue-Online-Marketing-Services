@@ -8,7 +8,7 @@ function navbarLogout() {
         box.innerHTML = ""
         box.innerText = `Welcome! ${data}`
         let logout = document.createElement("button")
-        logout.innerText = "X"
+        logout.innerText = "Logout"
         logout.addEventListener("click", ()=>{
             localStorage.setItem("siblogin", false)
             location.reload()
