@@ -31,8 +31,7 @@ function scrollFunction() {
     document.body.scrollTop <= 7 ||
     document.documentElement.scrollTop <= 7
   ) {
-    document.getElementById("navbar").style.backgroundColor =
-      "rgb(23, 85, 143)";
+    document.getElementById("navbar").style.backgroundColor = "#044a75";
     document.getElementById("navbar").style.boxShadow = "0px 0px 0px 0px";
     document.getElementById("solutions").style.color = "white";
     document.getElementById("pricing").style.color = "white";
