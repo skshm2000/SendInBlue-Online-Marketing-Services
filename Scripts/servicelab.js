@@ -6,6 +6,11 @@ import navbarLogout from "../Components/navbarfunc.js"
 document.querySelector('#navbar').innerHTML = navbar();
 document.querySelector('#footer').innerHTML = footer();
 
+
+document.getElementById("resources").style.textDecoration = "underline";
+document.getElementById("resources").style.color = "#044a75";
+document.getElementById("resources").style.fontWeight = "600";
+
 document.getElementById("navlogo").src = "image/logo123.PNG";
 
 document.getElementById("solutions").style.color="white";
@@ -25,7 +30,7 @@ function scrollFunction() {
      document.getElementById("solutions").style.color = "grey";
      document.getElementById("pricing").style.color="grey";
      document.getElementById("features").style.color="grey";
-    document.getElementById("resources").style.color="grey";
+    document.getElementById("resources").style.color="#044a75";
     document.getElementById("blog").style.color="grey";
     document.getElementById("login").style.color="black";
   }
