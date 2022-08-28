@@ -14,7 +14,6 @@ document.getElementById("blog").style.color="white";
 document.getElementById("login").style.color="white";
 
 
-
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 7 || document.documentElement.scrollTop > 7) {
