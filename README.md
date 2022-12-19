@@ -1,4 +1,4 @@
-# SendinBlue-  **[Deployed Link](https://five-metric.netlify.app/)**
+# SendinBlue-  **[Deployed Link](https://spectacular-syrniki-f45532.netlify.app/)**
 Sendinblue is the smartest and most intuitive platform for growing businesses. Thrive digitally as we guide your business with the right marketing & sales tools. Take a free test drive!
 
 
