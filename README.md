@@ -58,7 +58,7 @@ This project is the clone of the frontend website of Send in Blue. Its all the l
 
 ## Developers
 
- - **[Saksham Shelwal](https://github.com/skshm2000)**
+ - **[Saksham Selwal](https://github.com/skshm2000)**
  - **[Ritesh Kumar](https://github.com/ritesh19331)**
  - **[Kumar Sanu](https://github.com/sanuatmasai)**
  - **[Shivam Sherje](https://github.com/shivamsherje)**
